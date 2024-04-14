@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* <----------Project 1----------> */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.card img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.card h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    font-weight: 100;
+    color: red;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.remove {
+    height: 45px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgba(108, 195, 230, 0.79);
+    color: black;
+    cursor: pointer;
+} */
+
+
+
+/* <----------Project 2----------> */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card i {
+    font-size: 80px;
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: all ease 0.6s;
+} */
+
+
+
+/* <----------Project 3----------> */
+/*
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.main h1 {
+    font-size: 9vw;
+    font-weight: 900;
+    height: 100px;
+    color: white;
+
+}
+
+.curser {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    mix-blend-mode: difference;
+    position: absolute;
+    transition: all linear 0.2s;
+}
+
+*/
+/* <----------Project 4----------> */
+
+/*body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    position: relative;
+}
+
+.elem {
+    width: 100%;
+    height: 150px;
+    color: white;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 90px;
+    mix-blend-mode: difference;
+    z-index: 9;
+}
+
+.elem img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: all linear 0.3s;
+}
+*/
+
+
+/* <----------Project 5----------> */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#phone {
+    height: 450px;
+    width: 350px;
+    background-color: whitesmoke;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#view {
+    width: 100%;
+    height: 100%;
+}
+
+#stories {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+#stories img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 3px;
+    border: 3px solid rgb(249, 61, 92);
+}
